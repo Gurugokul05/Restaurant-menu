@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    /* background-image: url(9a55dcc0af24ad05f76206bf8bb3363a.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; */
+    /* background :linear-gradient(to right , #2C2C2C ,#3b1f2b); */
+    background-color: #fff3e0;
+}
+#navbar{
+    height: 110px;
+    width: 100%;
+    background-color: darkslateblue;
+}
+#nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+#titleOfRestaurant{
+    font-size: 75px;
+    font-weight: 900;
+    color: sandybrown;
+    font-family: "Playfair Display";
+   
+    padding-left: 20px;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+    font-family: "Playfair Display";
+    font-weight: 600;
+}
+li:hover{
+    /* color: grey; */
+    cursor: pointer;
+    /* transition: 0.5s ease; */
+}
+#first-section{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    word-spacing: 1px;
+    border: 1px rgb(216, 209, 209) solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 40px rgb(216, 209, 209) ;
+}
+#fooddiv1{
+    border: 1px rgb(216, 209, 209) solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 40px rgb(216, 209, 209) ;
+}
+#fooddiv2{
+    border: 1px rgb(216, 209, 209) solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 40px rgb(216, 209, 209) ;
+}
+#fooddiv3{
+    border: 1px rgb(216, 209, 209) solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 40px rgb(216, 209, 209) ;
+}
+#fooddiv4{
+    border: 1px rgb(216, 209, 209) solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 40px rgb(216, 209, 209) ;
+}
+#fooddiv5{
+    border: 1px rgb(216, 209, 209) solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 40px rgb(216, 209, 209) ;
+}
+#fooddiv6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px rgb(216, 209, 209) solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 40px rgb(216, 209, 209) ;
+}
+#fooddiv7{
+    border: 1px rgb(216, 209, 209) solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 40px rgb(216, 209, 209) ;
+}
+#footer{
+    background-color: rgba(24, 23, 23, 0.884);
+    color: aliceblue;
+    width: 100%;
+    height: 200px;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+#footer{
+    padding: 25px;
+}
+#footer li{
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+}
+#footer span{
+  
+    margin-top: 25px;
+    padding: 20px;
+}
