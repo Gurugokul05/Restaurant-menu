@@ -227,9 +227,51 @@ a:hover{
     text-align: center;
   }
 
-  #titleOfRestaurant {
+  /* #titleOfRestaurant {
     font-size: 45px;
+  } */
+  #nav-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
   }
-  
+
+  #titleOfRestaurant {
+    font-size: 20px;
+  }
+
+  #nav-content ol {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+  }
+
+  #nav-content ol li a {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+   #first-section {
+    font-size: 16px;
+    padding: 15px;
+    margin: 20px;
+    line-height: 26px;
+    word-spacing: 0.5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  #first-section h1 {
+    font-size: 22px;
+  }
+
+  #first-section h3 {
+    font-size: 15px;
+  }
+  #nav-content li{
+    display: none;
+  }
+  #titleOfRestaurant{
+    text-align: center;
+  }
 }
 
