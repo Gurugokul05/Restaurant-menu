@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
     margin: 0%;
     padding: 0%;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 body{
-    /* background-image: url(9a55dcc0af24ad05f76206bf8bb3363a.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover; */
-    /* background :linear-gradient(to right , #2C2C2C ,#3b1f2b); */
-    background-color: #fff3e0;
+    background-color: #000000;
+    overflow-x: hidden;
+    color: white;
 }
 #navbar{
     height: 110px;
     width: 100%;
-    background-color: darkslateblue;
+    background-color: rgb(0, 0, 0);
 }
 #nav-content{
     display: flex;
@@ -27,98 +27,135 @@ body{
     align-items: center;
 }
 #titleOfRestaurant{
-    font-size: 75px;
-    font-weight: 900;
-    color: sandybrown;
-    font-family: "Playfair Display";
-   
+    font-size: 50px;
+    /*font-weight: 900; */
+    color: goldenrod;
+    /* font-family: "Playfair Display"; */
+   padding: 20px;
     padding-left: 20px;
+    font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+}
+table{
+    font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
 }
 li{
     display: inline-block;
     margin-right: 20px;
-    font-family: "Playfair Display";
-    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-style: italic;
+    color: grey;
 }
-li:hover{
-    /* color: grey; */
-    cursor: pointer;
-    /* transition: 0.5s ease; */
-}
+
 #first-section{
     text-align: center;
     margin-top: 50px;
     font-family: "Cormorant Garamond", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: italic;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
     word-spacing: 1px;
-    border: 1px rgb(216, 209, 209) solid;
+    border: 1px rgb(0, 0, 0) solid;
     border-radius: 20px;
     padding: 20px;
-    margin: 20px;
-    box-shadow: 0 0 40px rgb(216, 209, 209) ;
+    margin: 50px;
+    box-shadow: 0 0 40px rgb(0, 0, 0) ;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
 }
-#fooddiv1{
-    border: 1px rgb(216, 209, 209) solid;
+#first-section h1{
+  margin-bottom: 25px;
+}
+.styletype1{
+    border: 1px rgb(0, 0, 0) solid;
     border-radius: 20px;
-    padding: 20px;
+    padding: 30px;
     margin: 20px;
-    box-shadow: 0 0 40px rgb(216, 209, 209) ;
+    box-shadow: 0 0 40px rgb(0, 0, 0) ;
+    display:flex;
 }
-#fooddiv2{
-    border: 1px rgb(216, 209, 209) solid;
+.styletype1:hover{
+  box-shadow: 0 0 15px goldenrod;
+}
+
+
+.styletype1 img{
+    border: 1px solid black;
     border-radius: 20px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0 0 40px rgb(216, 209, 209) ;
+    height: 500px;
+    width:500px;
+    
 }
-#fooddiv3{
-    border: 1px rgb(216, 209, 209) solid;
+
+
+.styletype1 h1{
+    padding-left: 30px;
+}
+.styletype1 table{
+    margin-top: 50px;
+}
+.styletype1 td:nth-child(2){
+    padding-left:350px ;
+}
+a{
+   font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20px;
+  color: goldenrod;
+}
+a:hover{
+  color: gold;
+}
+.styletype2{
+    border: 1px rgb(0, 0, 0) solid;
     border-radius: 20px;
-    padding: 20px;
+    padding: 30px;
     margin: 20px;
-    box-shadow: 0 0 40px rgb(216, 209, 209) ;
+    box-shadow: 0 0 40px rgb(0, 0, 0) ;
 }
-#fooddiv4{
-    border: 1px rgb(216, 209, 209) solid;
+.styletype2:hover{
+  box-shadow: 0 0 20px goldenrod;
+}
+.styletype2 img{
+    border: 1px solid black;
     border-radius: 20px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0 0 40px rgb(216, 209, 209) ;
+    height: 500px;
+    width:500px;
+    margin-left: 150px;
 }
-#fooddiv5{
-    border: 1px rgb(216, 209, 209) solid;
-    border-radius: 20px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0 0 40px rgb(216, 209, 209) ;
+.styletype2 table{
+    margin-top: 50px;
+ 
 }
-#fooddiv6{
+.styletype2 td:nth-child(2){
+    padding-left:400px ;
+}
+.styletype2_inside{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px rgb(216, 209, 209) solid;
-    border-radius: 20px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0 0 40px rgb(216, 209, 209) ;
 }
-#fooddiv7{
-    border: 1px rgb(216, 209, 209) solid;
-    border-radius: 20px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0 0 40px rgb(216, 209, 209) ;
-}
+
 #footer{
     background-color: rgba(24, 23, 23, 0.884);
     color: aliceblue;
     width: 100%;
-    height: 200px;
+    height: auto;
+    min-height: 120px;
     font-family: "Playfair Display";
     text-align: center;
+    max-width: 100%;
+
 }
+
 #footer{
     padding: 25px;
 }
@@ -131,3 +168,68 @@ li:hover{
     margin-top: 25px;
     padding: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .styletype1, .styletype2_inside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .styletype1 img, .styletype2_inside img {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .styletype1 table, .styletype2_inside table {
+    width: 100%;
+    margin-top: 15px;
+    table-layout: fixed;
+  }
+
+  table td:nth-child(2) {
+    text-align: right !important;
+    padding-left: 0 !important;
+    padding-right: 15px !important;
+  }
+  .styletype1 table,
+.styletype2 table {
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 15px;
+}
+.styletype1 table td,
+  .styletype2 table td {
+    word-break: break-word;
+    white-space: normal;
+    padding: 10px 5px;
+    vertical-align: top;
+    font-size: 1em;
+  }
+
+.styletype1 table td:first-child,
+.styletype2 table td:first-child {
+  width: 60%;
+  text-align: left;
+  max-width: 60vw;
+}
+
+.styletype1 table td:nth-child(2),
+.styletype2 table td:nth-child(2) {
+  width: 40%;
+  text-align: right;
+  padding-right: 15px;
+}
+
+  h1 {
+    text-align: center;
+  }
+
+  #titleOfRestaurant {
+    font-size: 45px;
+  }
+  
+}
+
